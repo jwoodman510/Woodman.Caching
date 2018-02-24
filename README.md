@@ -1,5 +1,5 @@
 # Woodman.Caching
-Caching layer wrapping Microsoft.Extensions.Caching using MessagePack serialization
+.NET Standard 2.0 Caching layer wrapping Microsoft.Extensions.Caching using MessagePack serialization
 
 ## Installation ##
 ````
