@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Jordan Woodman</Authors>
+    <Company />
+    <Description>Caching layer wrapping Microsoft.Extensions.Caching using MessagePack serialization</Description>
+    <PackageProjectUrl>https://github.com/jwoodman510/Woodman.Caching</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/jwoodman510/Woodman.Caching/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/jwoodman510/Woodman.Caching</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentCache.Microsoft.Extensions.Caching.Redis" Version="4.0.0.1" />
+    <PackageReference Include="MessagePack" Version="1.7.3.4" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
